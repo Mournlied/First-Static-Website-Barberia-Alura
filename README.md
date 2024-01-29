@@ -7,4 +7,4 @@
 <p>-Change font used to Monstserrat</p>
 <p>-Add map to the fictional shop</p>
 <p>-Improve contact page</p>
-<p>-Fix responsivity</p>
+<p>-Fix responsiveness</p>
