@@ -381,7 +381,7 @@ input[type='radio']:checked:after {
         width: auto;
     }
     
-    .features ul, .video iframe, .features-image, .products li{
+    .features ul, .video iframe, .features-image, .products li, .products-image{
         width: 100%;
     }
 
@@ -389,7 +389,8 @@ input[type='radio']:checked:after {
         display: block;
     }
 
-    .header-box h1{
+    .header-box{
+        padding: 20px 0;
         text-align: center;
     }
 
@@ -397,7 +398,7 @@ input[type='radio']:checked:after {
         width: 30%;
     }
     .header-box a{
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .header-box nav{
@@ -429,16 +430,12 @@ input[type='radio']:checked:after {
         margin: 10px 1.5%;
     }
 
-    .produts-image{
-        width: 70%;
-    }
-
     .registry input, .registry textarea{
         font-size: 1em;
         width: 65%;
     }
 
     .submit{
-        width: 55%;
+        width: 170px;
     }
 }
