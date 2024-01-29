@@ -3,14 +3,18 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Barberia Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="header-box">
-                <h1><img src="productos/logo-blanco.png"></h1>
+                <h1><img src="img/products/logo-blanco.png"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -21,34 +25,43 @@
             </div>    
         </header>
         <main>
-            <img id="banner" ; src="banner/banner.jpg">
-            <div class="principal">
-                <h2 class="formato-titulo">Sobre la Barbería Alura</h2>
+            <img class="banner" ; src="img/index/banner.jpg" alt="Banner">
+            <section class="main">
+                <h2 class="title-format">Sobre la Barbería Alura</h2>
                 <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
                 <p id="mission"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
                 <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
-            </div>
-            <div class="diferenciales">
-                <h3 class="formato-titulo">Diferenciales</h3>
+            </section>
+            <section class="features">
+                <h3 class="title-format">Diferenciales</h3>
                 <ul>
                     <li class="items">Atención personalizada a los clientes</li>
                     <li class="items">Espacio diferenciado</li>
                     <li class="items">Excelente localización</li>
                     <li class="items">Profesionales calificados</li>
-                </ul>            
-                <img src="diferenciales/diferenciales.jpg" id="imagen-diferenciales">
-            </div>
+                    <li class="items">Puntualidad</li>
+                    <li class="items">Limpieza</li>
+                </ul><img src="img/index/features.jpg" class="features-image" alt="Cliente siendo atendido">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?si=z7CpTdk-IiyDcVcu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="map">
+                <h3 class="title-format">Nuestra Ubicación</h3>
+                <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4348.200576493749!2d-46.63529730303992!3d-23.590475754226322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1sen!2scl!4v1706486196706!5m2!1sen!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         </main>    
         <footer>
             <div class="footer-box">
-                <p id="footer-contact">Contáctanos por whatsapp +00 0 000 000 00 </p>
+                <p class="footer-contact">Contáctanos por whatsapp +00 0 000 000 00 </p>
                 <ul>
-                    <li><a href="socials/twitter.png">Twitter |</a></li>
-                    <li><a href="socials/instagram.png">Instagram |</a></li>
-                    <li><a href="socials/facebook.png">Facebook</a></li>
+                    <li><a href="img/socials/twitter.png">Twitter |</a></li>
+                    <li><a href="img/socials/instagram.png">Instagram |</a></li>
+                    <li><a href="img/socials/facebook.png">Facebook</a></li>
                 </ul>
-                <img src="productos/logo-blanco.png" id="footer-image">
-                <p id="footer-copyright">&copy Copyright Barbería Alura - 2020</p>
+                <img src="img/products/logo-blanco.png" class="footer-image">
+                <p class="footer-copyright">&copy Copyright Barbería Alura - 2020</p>
             </div>
         </footer>
     </body>    
